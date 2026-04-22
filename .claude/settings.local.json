@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(sed -i '' 's|              {\\\\/\\\\* Text area: left-aligned \\\\*\\\\/}|              {/* Text area: left-aligned */}|' /Users/araomasaki/portfolio/app/components/SidebarTop.tsx)",
+      "Bash(python3 -c ':*)",
+      "Bash(python3:*)"
+    ]
+  }
+}

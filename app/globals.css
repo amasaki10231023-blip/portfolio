@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-base: #F2EFE9;
+  --color-accent-yellow: #FFB703;
+  --color-accent-red: #F44336;
+  --color-accent-blue: #2986CC;
+
+  /* Fonts */
+  --font-heading: "Blippo MN", sans-serif;
+  --font-body: var(--font-noto-sans-jp), "Noto Sans JP", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+* {
+  cursor: none;
+}
+
+#custom-cursor {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+#custom-cursor.large {
+  transform: translate(-50%, -50%) scale(4);
+  background-color: #FFB703 !important;
+}
+
+body {
+  background-color: var(--color-base);
+  font-family: var(--font-body);
+}
+
+.web-section {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.web-section-visible {
+  opacity: 1;
+}
+
+.fade-section {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.fade-section-visible {
+  opacity: 1;
+}
