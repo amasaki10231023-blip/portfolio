@@ -62,7 +62,7 @@ export default function About() {
               Who<span style={{ color: "#FFB703" }}>?</span>
             </h2>
             <div className="w-[555px] p-8 shrink-0" style={{ backgroundColor: "#FFB703", border: "10px solid #1a1a1a" }}>
-              <p className="text-[40px] leading-tight mb-1" style={{ ...blippo, color: "#1a1a1a" }}>
+              <p className="text-[40px] leading-none mb-1" style={{ ...blippo, color: "#1a1a1a" }}>
                 ARAO MASAKI
               </p>
               <p className="text-[24px] mb-6" style={{ ...blippo, color: "#1a1a1a" }}>

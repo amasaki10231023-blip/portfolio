@@ -72,15 +72,7 @@ export default function WorksSlider() {
         <p style={{ ...noto, fontSize: 20, color: "#fff", maxWidth: 560, lineHeight: 1.7 }}>
          Photoshopによる画像合成・フォトモンタージュ。<br />ブランドの世界観を視覚的に表現するコンテンツメイキング。
         </p>
-        <a
-          href="https://www.behance.net"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:opacity-70 transition-opacity"
-          style={{ ...noto, fontSize: 20, color: "#fff" }}
-        >
-          View all on Behance ↗
-        </a>
+
       </div>
     </section>
   );
