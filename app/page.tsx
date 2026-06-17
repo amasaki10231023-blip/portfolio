@@ -41,7 +41,7 @@ export default function Home() {
       {/* Main */}
       <main className="relative z-10 flex flex-1 flex-col items-start pt-[13%] pl-[120px] ml-[200px]">
         <h1
-          className="leading-[0.8] select-none text-left"
+          className="leading-[1.05] select-none text-left"
           style={{ fontFamily: "'Blippo MN', sans-serif", fontWeight: 900, color: "#1a1a1a" }}
         >
           <span className="block text-[160px]" style={{ marginLeft: "-3px" }}>ARAO</span>
